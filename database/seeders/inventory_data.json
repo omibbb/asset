@@ -1,0 +1,702 @@
+[
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00001",
+        "asset_description": "PRINTER EPSON L3210",
+        "acquisition_date": "10/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-CP-0001"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00002",
+        "asset_description": "PROYEKTOR EPSON E500",
+        "acquisition_date": "10/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-CP-0002"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00003",
+        "asset_description": "MEJA LIPAT FD-406T 60X120",
+        "acquisition_date": "10/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0001"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00004",
+        "asset_description": "KURSI SUSUN BIRU",
+        "acquisition_date": "10/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0002"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00005",
+        "asset_description": "LEMARI FILE CABINET 4 SHELF GLASS, LOCKER 4 DOORS SINGLE, HELMET",
+        "acquisition_date": "10/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0003"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00006",
+        "asset_description": "KABINET KITCHEN",
+        "acquisition_date": "10/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0004"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00007",
+        "asset_description": "MEJA ROUND",
+        "acquisition_date": "10/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0005"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00008",
+        "asset_description": "ROLLER BLIND",
+        "acquisition_date": "10/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0006"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00009",
+        "asset_description": "CCTV",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-EL-0001"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00010",
+        "asset_description": "LENOVO IDEAPAD",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-CP-0003"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00011",
+        "asset_description": "LENOVO IDEAPAD",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-CP-0004"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00012",
+        "asset_description": "LENOVO IDEAPAD",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-CP-0005"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00013",
+        "asset_description": "ANKER BLUETOOTH SPEAKER",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-EL-0002"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00014",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0007"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00015",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0008"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00016",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0009"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00017",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0010"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00018",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0011"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00019",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0012"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00020",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0013"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00021",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0014"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00022",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0015"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00023",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0016"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00024",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0017"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00025",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0018"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00026",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0019"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00027",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0020"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00028",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0021"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00029",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0022"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00030",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0023"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00031",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0024"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00032",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0025"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00033",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0026"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00034",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0027"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00035",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0028"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00036",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0029"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00037",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0030"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00038",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0031"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00039",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0032"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00040",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0033"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00041",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0034"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00042",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0035"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00043",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0036"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00044",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0037"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00045",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0038"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00046",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0039"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00047",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0040"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00048",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0041"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00049",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0042"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00050",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0043"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00051",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0044"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00052",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0045"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00053",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0046"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00054",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0047"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00055",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0048"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00056",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0049"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00057",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0050"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00058",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0051"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00059",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0052"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00060",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0053"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00061",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0054"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00062",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0055"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00063",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0056"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00064",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0057"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00065",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0058"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00066",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0059"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00067",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0060"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00068",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0061"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00069",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0062"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00070",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0063"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00071",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0064"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00072",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0065"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00073",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0066"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00074",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0067"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00075",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0068"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00076",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0069"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00077",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0070"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00078",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0071"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00079",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0072"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00080",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0073"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00081",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0074"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00082",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0075"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00083",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0076"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00084",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0077"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00085",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0078"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00086",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0079"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00087",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0080"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00088",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0081"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00089",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0082"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00090",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0083"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00091",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0084"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00092",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0085"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00093",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0086"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00094",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0087"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00095",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0088"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00096",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0089"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00097",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0090"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00098",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0091"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00099",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0092"
+    },
+    {
+        "asset_class": "Office Equipment",
+        "asset_no": "INV00100",
+        "asset_description": "KURSI LOMO WORKING LOW BLACK",
+        "acquisition_date": "11/1/2022",
+        "new_fixed_asset_no": "ITK-OEQ-FR-0093"
+    }
+]

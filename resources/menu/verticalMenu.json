@@ -1,0 +1,100 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Assets",
+      "icon": "menu-icon tf-icons bx bx-package",
+      "slug": "assets",
+      "submenu": [
+        {
+          "url": "/assets/add-asset",
+          "name": "Dashboard Assets",
+          "slug": "assets.add-assets"
+        },
+        {
+          "url": "/assets/devices",
+          "name": "PC/Laptop",
+          "slug": "assets.devices-form"
+        },
+        {
+          "url": "/assets/software",
+          "name": "Software",
+          "slug": "assets.software-form"
+        },
+        {
+          "url": "/assets/phone-device",
+          "name": "Phone",
+          "slug": "assets.phone-form"
+        },
+        {
+          "url": "/assets/network-device",
+          "name": "Network Device",
+          "slug": "assets.network-device-form"
+        },
+        {
+          "url": "/assets/monitor",
+          "name": "Monitor",
+          "slug": "assets.monitor-form"
+        },
+        {
+          "url": "/assets/license",
+          "name": "License",
+          "slug": "assets.license-form"
+        },
+        {
+          "url": "/assets/printers",
+          "name": "Printers",
+          "slug": "assets.printers-form"
+        },
+        {
+          "url": "/assets/others",
+          "name": "Others",
+          "slug": "assets.others-form"
+        }
+      ]
+    },
+    {
+      "url": "/",
+      "name": "Barcode",
+      "icon": "menu-icon tf-icons bx bx-barcode",
+      "slug": "barcode",
+      "submenu": [
+        {
+          "url": "barcode/manage-barcode",
+          "name": "Manage Barcodes",
+          "slug": "barcode.manage"
+        }
+      ]
+    },
+    {
+      "url": "/",
+      "name": "Administration",
+      "icon": "menu-icon tf-icons bx bx-shield",
+      "slug": "users-administrator",
+      "submenu": [
+        {
+          "url": "/users/manager",
+          "name": "Users",
+          "slug": "users-administrator"
+        }
+      ]
+    },
+    {
+      "menuHeader": "Misc"
+    },
+    {
+      "url": "https://github.com/themeselection/sneat-bootstrap-html-laravel-admin-template-free/issues",
+      "icon": "menu-icon tf-icons bx bx-support",
+      "name": "Support",
+      "slug": "support",
+      "target": "_blank"
+    },
+    {
+      "url": "https://themeselection.com/demo/sneat-bootstrap-html-admin-template/documentation/laravel-introduction.html",
+      "icon": "menu-icon tf-icons bx bx-file",
+      "name": "Documentation",
+      "slug": "documentation",
+      "target": "_blank"
+    }
+  ]
+}
