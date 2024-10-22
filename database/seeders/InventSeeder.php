@@ -13,19 +13,31 @@ class InventSeeder extends Seeder
      */
     public function run(): void
     {
-        $json = file_get_contents(__DIR__ . '/inventory_data.json');
-        $json = json_decode($json, true);
+        // Membaca file JSON
+        $json = file_get_contents(__DIR__ . '/inventory.json');
+        $data = json_decode($json, true);
+
+        // Mengambil data dari bagian 'data' di dalam tabel 'inventory'
+        $inventoryData = collect($data)
+            ->where('type', 'table')
+            ->where('name', 'inventory')
+            ->pluck('data')
+            ->first();
 
         // Mengubah format tanggal untuk setiap item
-        foreach ($json as &$item) {
-            // Mengubah format tanggal acquisition_date
-            $date = DateTime::createFromFormat('m/d/Y', $item['acquisition_date']);
+        foreach ($inventoryData as &$item) {
+            // Mengubah format tanggal acquisition_date jika diperlukan
+            $date = DateTime::createFromFormat('Y-m-d', $item['acquisition_date']);
             if ($date) {
-                $item['acquisition_date'] = $date->format('Y-m-d');
+                $item['acquisition_date'] = $date->format('Y-m-d'); // Format yang sama, jadi bisa diabaikan
             }
+            // Jika perlu menambahkan created_at dan updated_at ke format yang sesuai
+            $item['created_at'] = $item['created_at'] ?? now();
+            $item['updated_at'] = $item['updated_at'] ?? now();
+            unset($item['id']); // Hapus ID jika menggunakan auto increment
         }
 
         // Insert data into database
-        DB::table('inventory')->insert($json);
+        DB::table('inventory')->insert($inventoryData);
     }
 }

@@ -12,7 +12,7 @@
         <h5 class="mb-0">Basic with Icons</h5> <small class="text-muted float-end">Asset Management Inteko</small>
       </div>
       <div class="card-body">
-        <form action="{{ route('devices.store') }}" method="POST">
+        <form action="{{ route('device.store') }}" method="POST">
           @csrf
           <div class="row mb-6">
             <label class="col-sm-2 col-form-label" for="brand">Brand</label>

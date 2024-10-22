@@ -1,11 +1,11 @@
 // Tables
 // ********************************************************************************/
 
-@each $color, $value in $table-variants {
-  @if $color != primary {
-    @include template-table-variant($color, $value);
-  }
-}
+//@each $color, $value in $table-variants {
+//  @if $color != primary {
+//    @include template-table-variant($color, $value);
+//  }
+//}
 
 // Firefox fix for table head border bottom
 .table {

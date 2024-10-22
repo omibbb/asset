@@ -76,6 +76,11 @@
           "url": "/users/manager",
           "name": "Users",
           "slug": "users-administrator"
+        },
+        {
+          "url": "/roles/manager",
+          "name": "Log",
+          "slug": "log-activity"
         }
       ]
     },
@@ -83,7 +88,7 @@
       "menuHeader": "Misc"
     },
     {
-      "url": "https://github.com/themeselection/sneat-bootstrap-html-laravel-admin-template-free/issues",
+      "url": "https://support-ticketing.cloud/",
       "icon": "menu-icon tf-icons bx bx-support",
       "name": "Support",
       "slug": "support",

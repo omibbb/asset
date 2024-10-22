@@ -28,7 +28,7 @@ class UserSeeder extends Seeder
                 'name' => 'Alif Ryuu',
                 'email_verified_at' => now(),
                 'password' => bcrypt('password'),
-                'depart' => 'HRGA',
+                'depart' => 'IT',
             ]
         );
 
@@ -37,17 +37,33 @@ class UserSeeder extends Seeder
         // Membuat user dengan role staff
         $staff = User::firstOrCreate(
             [
-                'email' => 'zoelabbb@gmail.com',
-                'username' => 'staffmember',
+                'email' => 'bimo.derry@inteko.co.id',
+                'username' => 'bimo',
             ],
             [
-                'name' => 'Rudiansyah',
+                'name' => 'Bimo Dery',
                 'email_verified_at' => now(),
-                'password' => bcrypt('password'),
-                'depart' => 'Marketing',
+                'password' => bcrypt('Suksesmuli4!'),
+                'depart' => 'IT',
             ]
         );
 
-        $staff->assignRole('staff');
+        $staff->assignRole('supadmin');
+
+        // Membuat user dengan role staff
+        $hrga = User::firstOrCreate(
+            [
+                'email' => 'hrga.internship@gmail.com',
+                'username' => 'INTEKO',
+            ],
+            [
+                'name' => 'INTEKO',
+                'email_verified_at' => now(),
+                'password' => bcrypt('Suksesmuli4!'),
+                'depart' => 'HRGA',
+            ]
+        );
+
+        $hrga->assignRole('supadmin');
     }
 }

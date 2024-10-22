@@ -84,7 +84,7 @@
         "@popperjs/core": "2.11.8",
         "apexcharts-clevision": "3.28.5",
         "bootstrap": "5.3.3",
-        "boxicons": "2.1.4",
+        "boxicons": "^2.1.4",
         "highlight.js": "11.9.0",
         "html5-qrcode": "^2.3.8",
         "jquery": "3.7.1",

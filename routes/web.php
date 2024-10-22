@@ -85,6 +85,12 @@ Route::middleware(['auth:sanctum', config('jetstream.auth_session'), 'verified']
     Route::get('/assets/monitor', [AssetController::class, 'monitor'])->name('assets.monitor-form');
     Route::get('/assets/license', [AssetController::class, 'license'])->name('assets.license-form');
     Route::get('/assets/printers', [AssetController::class, 'printers'])->name('assets.printers-form');
+
+    // Generate Label
+    Route::get('/assets/{id}/generateLabel', [AssetController::class, 'generatePdf'])->name('assets.generateLabel');
+
+    // Others Management
+    Route::resource('others', OthersController::class);
     Route::get('/assets/others', [AssetController::class, 'otherCategory'])->name('assets.others-form');
 
     Route::delete('/assets/delete/{type}/{id}', [AssetController::class, 'delete'])->name('assets.delete')->where('type', '[a-z]+');
@@ -93,14 +99,13 @@ Route::middleware(['auth:sanctum', config('jetstream.auth_session'), 'verified']
 
     Route::get('/assets/get-by-barcode/{barcode}', [AssetController::class, 'getByBarcode']);
 
-    Route::resource('devices', DeviceController::class);
+    Route::resource('device', DeviceController::class);
     Route::resource('software', SoftwaresController::class);
     Route::resource('phones', PhoneController::class);
     Route::resource('networkdevice', NetworkDeviceController::class);
     Route::resource('monitors', MonitorController::class);
     Route::resource('license', LicenseController::class);
     Route::resource('printers', PrintersController::class);
-    Route::resource('others', OthersController::class);
 
     // User Profile
     Route::get('/user/account-session', [AccountSettingsAccount::class, 'userSession'])->name('user.account-session');

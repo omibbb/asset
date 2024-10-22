@@ -17,5 +17,7 @@ class Others extends Model
         'asset_description',
         'acquisition_date',
         'new_fixed_asset_no',
+        'serial_number',
+        'location'
     ];
 }

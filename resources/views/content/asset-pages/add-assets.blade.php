@@ -205,7 +205,8 @@
                 <thead>
                     <tr>
                         <th>No</th>
-                        <th>Asset Type</th>
+                        <th>Asset</th>
+                        <th>Asset No</th>
                         <th>Brand/Name</th>
                         <th>Serial Number</th>
                         <th>Barcode</th>
@@ -216,9 +217,10 @@
                     @foreach($allAssets as $asset)
                     <tr>
                         <td>{{ $loop->iteration }}</td>
-                        <td>{{ class_basename($asset) }}</td>
+                        <td>{{ $asset->asset_class ?? '-' }}</td>
+                        <td>{{ $asset->asset_no ?? '-' }}</td>
                         <td>{{ $asset->brand ?? $asset->name ?? $asset->asset_description ?? '-' }}</td>
-                        <td>{{ $asset->serial_number ?? $asset->license_key ?? $asset->new_fixed_asset_no ?? '-' }}</td>
+                        <td>{{ $asset->serial_number ?? '-' }}</td>
                         <td>
                             @if(!$asset->qr_code_path)
                             <i id="qr-icon-{{ strtolower(class_basename($asset)) }}-{{ $asset->id }}" class='bx bx-x text-danger' onclick="showQrCode(null)" style="cursor: pointer;"></i>
@@ -228,7 +230,7 @@
                         </td>
                         <td>
                             <div class="d-flex align-items-center gap-50">
-                                <a href="#" class="btn btn-sm btn-icon edit-record" data-id="#">
+                                <a href="{{ route(strtolower(class_basename($asset)) . '.edit', $asset->id) }}" class="btn btn-sm btn-icon edit-record" data-id="{{ $asset->id }}">
                                     <i class="bx bx-edit"></i>
                                 </a>
                                 <form action="{{ route('assets.delete', ['type' => strtolower(class_basename($asset)), 'id' => $asset->id]) }}" method="POST" style="display:inline;">
@@ -242,8 +244,9 @@
                                     <i class="bx bx-dots-vertical-rounded"></i>
                                 </button>
                                 <div class="dropdown-menu dropdown-menu-end m-0">
-                                    <a href="javascript:;" class="dropdown-item" onclick="viewDetail({{ $asset->id }}, '{{ strtolower(class_basename($asset)) }}')">View Detail</a>
+                                    <a href="javascript:;" class="dropdown-item" onclick="viewDetail('{{ $asset->id }}', '{{ strtolower(class_basename($asset)) }}')">View Detail</a>
                                     <a href="javascript:;" class="dropdown-item" onclick="generateQr('{{ strtolower(class_basename($asset)) }}', '{{ $asset->id }}')">Generate Qr</a>
+                                    <a href="{{ route('assets.generateLabel', $asset->id) }}" class="dropdown-item">Generate Label</a>
                                     <a href="javascript:;" class="dropdown-item" data-bs-toggle="modal" data-bs-target="#qrCodeModal">Scan QR Code</a>
                                 </div>
                             </div>
@@ -342,6 +345,8 @@
                         <strong>Asset Description:</strong> ${data.asset_description} <br>
                         <strong>Acquisition Date:</strong> ${data.acquisition_date} <br>
                         <strong>Fixed Asset Number:</strong> ${data.new_fixed_asset_no} <br>
+                        <strong>Serial Number:</strong> ${data.serial_number} <br>
+                        <strong>Location:</strong> ${data.location} <br>
                     `;
                 } else {
                     // Jika ada tipe lain, tambahkan logika yang sesuai

@@ -1,9 +1,9 @@
 // Validation states
 // *******************************************************************************
 
-@each $state, $data in $form-validation-states {
-  @include template-form-validation-state($state, $data...);
-}
+//@each $state, $data in $form-validation-states {
+//  @include template-form-validation-state($state, $data...);
+//}
 
 // Currently supported for form-validation and jq-validation
 form {

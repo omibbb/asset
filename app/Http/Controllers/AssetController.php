@@ -15,6 +15,7 @@ use App\Models\Others;
 use App\Models\Printers;
 use Endroid\QrCode\QrCode;
 use Endroid\QrCode\Writer\PngWriter;
+use Barryvdh\DomPDF\Facade\Pdf;
 
 class AssetController extends Controller
 {
@@ -110,6 +111,38 @@ class AssetController extends Controller
         ]);
     }
 
+    // Generate Labels for assets
+    public function generatePdf($id)
+    {
+        // Ambil asset berdasarkan ID
+        $asset = Others::find($id);
+
+        // Jika asset tidak ditemukan, kembalikan error
+        if (!$asset) {
+            notify()->error('Asset not found.');
+            return redirect()->back();
+        }
+
+        // Mendapatkan path gambar QR Code
+        $imagePath = public_path($asset->qr_code_path);
+
+        // Periksa apakah gambar ada
+        if (!file_exists($imagePath)) {
+            notify()->error('QR Code not found.');
+            return redirect()->back();
+        }
+
+        // Mengubah gambar menjadi base64
+        $imageData = base64_encode(file_get_contents($imagePath));
+        $src = 'data:' . mime_content_type($imagePath) . ';base64,' . $imageData;
+
+        // Memuat view PDF tanpa mengatur opsi
+        $pdf = Pdf::loadView('pdf.pdf_layout', compact('asset', 'src'));
+
+        // Mengunduh PDF
+        return $pdf->download('Asset_' . $asset->asset_no . '.pdf');
+    }
+
     public function getDetail($type, $id)
     {
         $assetModel = '\\App\\Models\\' . ucfirst($type);
@@ -187,6 +220,8 @@ class AssetController extends Controller
                 'asset_description' => $asset->asset_description,
                 'acquisition_date' => $asset->acquisition_date,
                 'new_fixed_asset_no' => $asset->new_fixed_asset_no,
+                'serial_number' => $asset->serial_number,
+                'location' => $asset->location,
             ]);
         }
 
